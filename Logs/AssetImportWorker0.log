@@ -15,7 +15,7 @@ C:/Users/Satawin/Documents/GitHub/ArbyZombies
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-60043
+59678
 Successfully changed project path to: C:/Users/Satawin/Documents/GitHub/ArbyZombies
 C:/Users/Satawin/Documents/GitHub/ArbyZombies
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ C:/Users/Satawin/Documents/GitHub/ArbyZombies
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 89.42 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 84.29 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.9f1 (ad3870b89536)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/Resources/UnitySubsystems
@@ -63,92 +63,92 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56460
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56200
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.006437 seconds.
+Registered in 0.011517 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 76.04 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 85.85 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.668 seconds
+- Completed reload, in  0.695 seconds
 Domain Reload Profiling:
-	ReloadAssembly (669ms)
-		BeginReloadAssembly (82ms)
+	ReloadAssembly (695ms)
+		BeginReloadAssembly (72ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (470ms)
-			LoadAssemblies (79ms)
+		EndReloadAssembly (494ms)
+			LoadAssemblies (70ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (115ms)
+			SetupTypeCache (116ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (28ms)
-			SetupLoadedEditorAssemblies (273ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (296ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (9ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (76ms)
+				RefreshPlugins (86ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (143ms)
-				ProcessInitializeOnLoadMethodAttributes (44ms)
+				ProcessInitializeOnLoadAttributes (147ms)
+				ProcessInitializeOnLoadMethodAttributes (52ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.006410 seconds.
+Registered in 0.015388 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\Satawin\Documents\GitHub\ArbyZombies\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\Satawin\Documents\GitHub\ArbyZombies\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.57 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.56 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.157 seconds
+- Completed reload, in  1.288 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1158ms)
-		BeginReloadAssembly (112ms)
+	ReloadAssembly (1289ms)
+		BeginReloadAssembly (111ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (19ms)
-		EndReloadAssembly (918ms)
-			LoadAssemblies (87ms)
+			CreateAndSetChildDomain (20ms)
+		EndReloadAssembly (1060ms)
+			LoadAssemblies (85ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (311ms)
+			SetupTypeCache (277ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (53ms)
-			SetupLoadedEditorAssemblies (417ms)
+			RebuildScriptCaches (51ms)
+			SetupLoadedEditorAssemblies (598ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
+				InitializePlatformSupportModulesInManaged (8ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (117ms)
-				ProcessInitializeOnLoadAttributes (255ms)
-				ProcessInitializeOnLoadMethodAttributes (28ms)
-				AfterProcessingInitializeOnLoad (8ms)
+				BeforeProcessingInitializeOnLoad (98ms)
+				ProcessInitializeOnLoadAttributes (412ms)
+				ProcessInitializeOnLoadMethodAttributes (69ms)
+				AfterProcessingInitializeOnLoad (11ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 0.67 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.66 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3380 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 27 unused Assets / (111.3 KB). Loaded Objects now: 3837.
-Memory consumption went from 116.2 MB to 116.1 MB.
-Total: 4.069000 ms (FindLiveObjects: 0.339400 ms CreateObjectMapping: 0.231500 ms MarkObjects: 3.393500 ms  DeleteObjects: 0.103300 ms)
+Unloading 3444 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (96.0 KB). Loaded Objects now: 3903.
+Memory consumption went from 118.2 MB to 118.1 MB.
+Total: 3.739100 ms (FindLiveObjects: 0.319200 ms CreateObjectMapping: 0.223500 ms MarkObjects: 3.093100 ms  DeleteObjects: 0.102000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -163,7 +163,43 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 222367.565616 seconds.
-  path: Assets
-  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79842766b460edbeab6a34051e857a80') in 0.009590 seconds 
+  Time since last request: 610127.582333 seconds.
+  path: Assets/Gold Player/Prefabs/Gold Player.prefab
+  artifactKey: Guid(53c43a8ca1f02a4468880d3cecf7c6bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gold Player/Prefabs/Gold Player.prefab using Guid(53c43a8ca1f02a4468880d3cecf7c6bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1df8e75d40c49499563c1372656cbbb9') in 0.270054 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Gold Player
+  artifactKey: Guid(c5acbdff259e4454aa9a41551624d7ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gold Player using Guid(c5acbdff259e4454aa9a41551624d7ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e29f6462444828995c99fd28c51d3269') in 0.002430 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Gold Player/Prefabs
+  artifactKey: Guid(32c68347e7bb8bf40aadbbe437adb5cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gold Player/Prefabs using Guid(32c68347e7bb8bf40aadbbe437adb5cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4e05dc48bdc42700940bec40fce30ae') in 0.003331 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 37.875239 seconds.
+  path: Assets/'Prefab Models
+  artifactKey: Guid(489f5c72ec63f004fa9cadf279bb3c9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/'Prefab Models using Guid(489f5c72ec63f004fa9cadf279bb3c9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '864f09c2b2a135bf45305dde8113d3d7') in 0.002898 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.609110 seconds.
+  path: Assets/'Prefab Models/Countertop.fbx
+  artifactKey: Guid(45b34cfb87c5e164eab918e7c855136d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/'Prefab Models/Countertop.fbx using Guid(45b34cfb87c5e164eab918e7c855136d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca890a266c95e6ed424a6055474484b2') in 0.112543 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.080051 seconds.
+  path: Assets/'Prefab Models/Table 1.fbx
+  artifactKey: Guid(7c8b10ea256c0c84ab167226c058ae74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/'Prefab Models/Table 1.fbx using Guid(7c8b10ea256c0c84ab167226c058ae74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffdad323005e0281d2e1ac75c88a22c5') in 0.030283 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.321287 seconds.
+  path: Assets/'Prefab Models/Table 2.fbx
+  artifactKey: Guid(34635a4bed57a754b83e0e1e429c94be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/'Prefab Models/Table 2.fbx using Guid(34635a4bed57a754b83e0e1e429c94be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a969e4940a01687293e3944aba8ae98') in 0.027178 seconds 
