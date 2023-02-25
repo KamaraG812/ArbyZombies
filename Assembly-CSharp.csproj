@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{C93F7F3D-65DD-8695-6D47-214ED32441F5}</ProjectGuid>
+    <ProjectGuid>{D5E86CDF-0350-CFEB-8FE2-EE873DE84421}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -56,49 +56,49 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Gold Player\Scripts\Tests\GarbageTests.cs" />
-    <Compile Include="Assets\Gold Player\Scripts\Runtime\Core\GoldPlayerController.cs" />
-    <Compile Include="Assets\Gold Player\Scripts\Runtime\Core\Classes\FOVKickClass.cs" />
-    <Compile Include="Assets\Gold Player\Scripts\Runtime\Core\Components\PlayerBehaviour.cs" />
-    <Compile Include="Assets\Gold Player\Scripts\Tests\ControllerTests.cs" />
-    <Compile Include="Assets\Gold Player\Scripts\Runtime\Audio Extras\GoldPlayerAudioAnimator.cs" />
-    <Compile Include="Assets\Gold Player\Scripts\Tests\MovementSpeedTests.cs" />
-    <Compile Include="Assets\Gold Player\Scripts\Runtime\Core\Classes\GoldPlayerExtensions.cs" />
-    <Compile Include="Assets\Gold Player\Scripts\Tests\BobTests.cs" />
-    <Compile Include="Assets\Gold Player\Scripts\Runtime\Core\Classes\AudioItem.cs" />
     <Compile Include="Assets\Gold Player\Scripts\Tests\InteractionTests.cs" />
-    <Compile Include="Assets\Gold Player\Scripts\Runtime\Core\Modules\PlayerMovement.cs" />
+    <Compile Include="Assets\Gold Player\Scripts\Tests\GarbageTests.cs" />
     <Compile Include="Assets\Gold Player\Scripts\Tests\BaseGoldPlayerTest.cs" />
-    <Compile Include="Assets\Gold Player\Scripts\Runtime\Interaction\GoldPlayerInteraction.cs" />
-    <Compile Include="Assets\Gold Player\Scripts\Runtime\Core\GoldPlayerInput.cs" />
-    <Compile Include="Assets\Gold Player\Scripts\Runtime\Animator\GoldPlayerAnimator.cs" />
-    <Compile Include="Assets\Gold Player\Scripts\Runtime\Core\Components\PlayerAudioBehaviour.cs" />
     <Compile Include="Assets\Gold Player\Scripts\Runtime\Core\Classes\BobClass.cs" />
-    <Compile Include="Assets\Gold Player\Scripts\Tests\MovementTests.cs" />
-    <Compile Include="Assets\Gold Player\Scripts\Tests\GoldPlayerTestInput.cs" />
-    <Compile Include="Assets\Gold Player\Scripts\Tests\FOVKickTests.cs" />
-    <Compile Include="Assets\Gold Player\Scripts\Runtime\Interaction\IGoldPlayerInteractable.cs" />
-    <Compile Include="Assets\Gold Player\Scripts\Runtime\Core\Modules\PlayerCamera.cs" />
-    <Compile Include="Assets\Gold Player\Scripts\Runtime\Object Bob\GoldPlayerObjectBob.cs" />
-    <Compile Include="Assets\Gold Player\Scripts\Runtime\Audio Extras\GoldPlayerAudioAnimatorTriggers.cs" />
-    <Compile Include="Assets\Gold Player\Scripts\Runtime\Core\IGoldInput.cs" />
-    <Compile Include="Assets\Gold Player\Scripts\Runtime\UI\GoldPlayerUI.cs" />
-    <Compile Include="Assets\Gold Player\Scripts\Runtime\Core\Data Types\Enums.cs" />
-    <Compile Include="Assets\Gold Player\Scripts\Runtime\Graphics\GoldPlayerGraphics.cs" />
-    <Compile Include="Assets\Gold Player\Scripts\Runtime\Core\Classes\InputSystemItem.cs" />
-    <Compile Include="Assets\Gold Player\Scripts\Runtime\Interaction\GoldPlayerInteractable.cs" />
-    <Compile Include="Assets\Gold Player\Scripts\Runtime\Core\Modules\PlayerModule.cs" />
-    <Compile Include="Assets\Gold Player\Scripts\Runtime\Core\Classes\InputItem.cs" />
-    <Compile Include="Assets\Gold Player\Scripts\Runtime\Core\GoldInput.cs" />
-    <Compile Include="Assets\Gold Player\Scripts\Runtime\Core\Classes\StaminaClass.cs" />
-    <Compile Include="Assets\Gold Player\Scripts\Runtime\Core\Classes\MovingPlatformsClass.cs" />
-    <Compile Include="Assets\Gold Player\Scripts\Runtime\Core\GoldPlayerInputSystem.cs" />
-    <Compile Include="Assets\Gold Player\Scripts\Tests\AudioItemTests.cs" />
-    <Compile Include="Assets\Gold Player\Scripts\Runtime\Core\Modules\PlayerAudio.cs" />
     <Compile Include="Assets\Gold Player\Scripts\Runtime\Core\Data Types\GoldPlayerDelegates.cs" />
-    <Compile Include="Assets\Gold Player\Scripts\Runtime\Core\Modules\PlayerBob.cs" />
-    <Compile Include="Assets\Gold Player\Scripts\Runtime\Core\Data Types\MovementSpeeds.cs" />
+    <Compile Include="Assets\Gold Player\Scripts\Runtime\Core\GoldPlayerController.cs" />
+    <Compile Include="Assets\Gold Player\Scripts\Runtime\UI\GoldPlayerUI.cs" />
+    <Compile Include="Assets\Gold Player\Scripts\Runtime\Interaction\GoldPlayerInteractable.cs" />
+    <Compile Include="Assets\Gold Player\Scripts\Runtime\Core\Classes\InputItem.cs" />
+    <Compile Include="Assets\Gold Player\Scripts\Runtime\Interaction\IGoldPlayerInteractable.cs" />
+    <Compile Include="Assets\Gold Player\Scripts\Runtime\Core\GoldPlayerInputSystem.cs" />
+    <Compile Include="Assets\Gold Player\Scripts\Runtime\Object Bob\GoldPlayerObjectBob.cs" />
+    <Compile Include="Assets\Gold Player\Scripts\Tests\AudioItemTests.cs" />
+    <Compile Include="Assets\Gold Player\Scripts\Runtime\Core\Classes\MovingPlatformsClass.cs" />
+    <Compile Include="Assets\Gold Player\Scripts\Runtime\Core\Classes\AudioItem.cs" />
+    <Compile Include="Assets\Gold Player\Scripts\Runtime\Core\Modules\PlayerAudio.cs" />
+    <Compile Include="Assets\Gold Player\Scripts\Runtime\Animator\GoldPlayerAnimator.cs" />
     <Compile Include="Assets\Gold Player\Scripts\Tests\GraphicsTest.cs" />
+    <Compile Include="Assets\Gold Player\Scripts\Runtime\Core\Classes\StaminaClass.cs" />
+    <Compile Include="Assets\Gold Player\Scripts\Runtime\Core\Data Types\Enums.cs" />
+    <Compile Include="Assets\Gold Player\Scripts\Runtime\Core\Classes\FOVKickClass.cs" />
+    <Compile Include="Assets\Gold Player\Scripts\Runtime\Core\Classes\GoldPlayerExtensions.cs" />
+    <Compile Include="Assets\Gold Player\Scripts\Runtime\Audio Extras\GoldPlayerAudioAnimator.cs" />
+    <Compile Include="Assets\Gold Player\Scripts\Tests\ControllerTests.cs" />
+    <Compile Include="Assets\Gold Player\Scripts\Runtime\Core\Modules\PlayerMovement.cs" />
+    <Compile Include="Assets\Gold Player\Scripts\Runtime\Core\Modules\PlayerBob.cs" />
+    <Compile Include="Assets\Gold Player\Scripts\Runtime\Interaction\GoldPlayerInteraction.cs" />
+    <Compile Include="Assets\Gold Player\Scripts\Tests\MovementSpeedTests.cs" />
+    <Compile Include="Assets\Gold Player\Scripts\Tests\BobTests.cs" />
+    <Compile Include="Assets\Gold Player\Scripts\Runtime\Core\Components\PlayerAudioBehaviour.cs" />
+    <Compile Include="Assets\Gold Player\Scripts\Runtime\Core\Modules\PlayerCamera.cs" />
+    <Compile Include="Assets\Gold Player\Scripts\Runtime\Core\IGoldInput.cs" />
+    <Compile Include="Assets\Gold Player\Scripts\Runtime\Core\Data Types\MovementSpeeds.cs" />
+    <Compile Include="Assets\Gold Player\Scripts\Runtime\Graphics\GoldPlayerGraphics.cs" />
+    <Compile Include="Assets\Gold Player\Scripts\Runtime\Core\Components\PlayerBehaviour.cs" />
+    <Compile Include="Assets\Gold Player\Scripts\Tests\GoldPlayerTestInput.cs" />
+    <Compile Include="Assets\Gold Player\Scripts\Runtime\Audio Extras\GoldPlayerAudioAnimatorTriggers.cs" />
+    <Compile Include="Assets\Gold Player\Scripts\Runtime\Core\GoldPlayerInput.cs" />
+    <Compile Include="Assets\Gold Player\Scripts\Tests\MovementTests.cs" />
+    <Compile Include="Assets\Gold Player\Scripts\Runtime\Core\Modules\PlayerModule.cs" />
+    <Compile Include="Assets\Gold Player\Scripts\Tests\FOVKickTests.cs" />
+    <Compile Include="Assets\Gold Player\Scripts\Runtime\Core\Classes\InputSystemItem.cs" />
+    <Compile Include="Assets\Gold Player\Scripts\Runtime\Core\GoldInput.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

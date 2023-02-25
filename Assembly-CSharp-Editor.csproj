@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{FDE264F0-BD4C-FA3F-142D-12B1BBBF3814}</ProjectGuid>
+    <ProjectGuid>{BF43EFFC-6759-A95A-0BBE-ED2C57E97616}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
@@ -56,27 +56,27 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Gold Player\Scripts\Editor\UI\GoldPlayerUIEditor.cs" />
-    <Compile Include="Assets\Gold Player\Scripts\Editor\Interaction\GoldPlayerInteractableEditor.cs" />
-    <Compile Include="Assets\Gold Player\Scripts\Editor\Object Bob\GoldPlayerObjectBobEditor.cs" />
     <Compile Include="Assets\Gold Player\Scripts\Editor\Settings\GoldPlayerProjectSettingsProvider.cs" />
-    <Compile Include="Assets\Gold Player\Scripts\Editor\Audio Extras\GoldPlayerAudioAnimatorEditor.cs" />
-    <Compile Include="Assets\Gold Player\Scripts\Editor\Helpers\GoldPlayerMenuItems.cs" />
-    <Compile Include="Assets\Gold Player\Scripts\Editor\Core\MovementSpeedsEditor.cs" />
-    <Compile Include="Assets\Gold Player\Scripts\Editor\Core\GoldPlayerInputEditor.cs" />
     <Compile Include="Assets\Gold Player\Scripts\Editor\Helpers\GoldPlayerScriptHelpers.cs" />
-    <Compile Include="Assets\Gold Player\Scripts\Editor\Core\GoldPlayerControllerEditor.cs" />
-    <Compile Include="Assets\Gold Player\Scripts\Editor\Audio Extras\GoldPlayerAudioAnimatorTriggersEditor.cs" />
-    <Compile Include="Assets\Gold Player\Scripts\Editor\Helpers\GoldPlayerUIHelper.cs" />
-    <Compile Include="Assets\Gold Player\Scripts\Editor\Core\BobClassEditor.cs" />
-    <Compile Include="Assets\Gold Player\Scripts\Editor\Core\FOVKickClassEditor.cs" />
     <Compile Include="Assets\Gold Player\Scripts\Editor\Settings\GoldPlayerProjectSettings.cs" />
-    <Compile Include="Assets\Gold Player\Scripts\Editor\Interaction\GoldPlayerInteractionEditor.cs" />
-    <Compile Include="Assets\Gold Player\Scripts\Editor\Core\GoldPlayerInputSystemEditor.cs" />
-    <Compile Include="Assets\Gold Player\Scripts\Editor\Graphics\GoldPlayerGraphicsEditor.cs" />
+    <Compile Include="Assets\Gold Player\Scripts\Editor\Audio Extras\GoldPlayerAudioAnimatorEditor.cs" />
+    <Compile Include="Assets\Gold Player\Scripts\Editor\Core\GoldPlayerControllerEditor.cs" />
+    <Compile Include="Assets\Gold Player\Scripts\Editor\Helpers\GoldPlayerUIHelper.cs" />
+    <Compile Include="Assets\Gold Player\Scripts\Editor\Core\MovementSpeedsEditor.cs" />
     <Compile Include="Assets\Gold Player\Scripts\Editor\Animator\GoldPlayerAnimatorEditor.cs" />
+    <Compile Include="Assets\Gold Player\Scripts\Editor\Interaction\GoldPlayerInteractableEditor.cs" />
+    <Compile Include="Assets\Gold Player\Scripts\Editor\Audio Extras\GoldPlayerAudioAnimatorTriggersEditor.cs" />
+    <Compile Include="Assets\Gold Player\Scripts\Editor\Core\GoldPlayerInputSystemEditor.cs" />
+    <Compile Include="Assets\Gold Player\Scripts\Editor\Core\FOVKickClassEditor.cs" />
+    <Compile Include="Assets\Gold Player\Scripts\Editor\Object Bob\GoldPlayerObjectBobEditor.cs" />
+    <Compile Include="Assets\Gold Player\Scripts\Editor\UI\GoldPlayerUIEditor.cs" />
+    <Compile Include="Assets\Gold Player\Scripts\Editor\Helpers\GoldPlayerMenuItems.cs" />
+    <Compile Include="Assets\Gold Player\Scripts\Editor\Core\BobClassEditor.cs" />
+    <Compile Include="Assets\Gold Player\Scripts\Editor\Interaction\GoldPlayerInteractionEditor.cs" />
     <Compile Include="Assets\Gold Player\Scripts\Editor\Core\AudioItemEditor.cs" />
+    <Compile Include="Assets\Gold Player\Scripts\Editor\Core\GoldPlayerInputEditor.cs" />
     <Compile Include="Assets\Gold Player\Scripts\Editor\Core\GoldPlayerPropertyDrawer.cs" />
+    <Compile Include="Assets\Gold Player\Scripts\Editor\Graphics\GoldPlayerGraphicsEditor.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -327,9 +327,6 @@
     </Reference>
     <Reference Include="UnityEditor.Graphs">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.9f1\Editor\Data\Managed\UnityEditor.Graphs.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.WebGL.Extensions">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.9f1\Editor\Data\PlaybackEngines\WebGLSupport\UnityEditor.WebGL.Extensions.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.WindowsStandalone.Extensions">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.9f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
@@ -829,7 +826,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{C93F7F3D-65DD-8695-6D47-214ED32441F5}</Project>
+      <Project>{D5E86CDF-0350-CFEB-8FE2-EE873DE84421}</Project>
       <Name>Assembly-CSharp</Name>
     </ProjectReference>
   </ItemGroup>
