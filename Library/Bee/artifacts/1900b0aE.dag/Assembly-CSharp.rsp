@@ -357,6 +357,9 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.VSCode.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
+"Assets/Assets/RoadTool/Scripts/Road.cs"
+"Assets/Assets/RoadTool/Scripts/RoadMath.cs"
+"Assets/Assets/RoadTool/Scripts/RoadUtils.cs"
 "Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Doors/opencloseDoor.cs"
 "Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Doors/opencloseDoor1.cs"
 "Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Doors/opencloseStallDoor.cs"
@@ -410,6 +413,8 @@
 "Assets/Gold Player/Scripts/Tests/InteractionTests.cs"
 "Assets/Gold Player/Scripts/Tests/MovementSpeedTests.cs"
 "Assets/Gold Player/Scripts/Tests/MovementTests.cs"
+"Assets/Scenes/Loading Scene/Scripts/MainMenu.cs"
+"Assets/Scenes/Loading Scene/Scripts/MainMenuTry.cs"
 -langversion:9.0
 
 /deterministic

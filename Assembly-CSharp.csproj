@@ -78,6 +78,7 @@
     <Compile Include="Assets\Gold Player\Scripts\Runtime\Animator\GoldPlayerAnimator.cs" />
     <Compile Include="Assets\Gold Player\Scripts\Tests\GraphicsTest.cs" />
     <Compile Include="Assets\Gold Player\Scripts\Runtime\Core\Classes\StaminaClass.cs" />
+    <Compile Include="Assets\Assets\RoadTool\Scripts\Road.cs" />
     <Compile Include="Assets\Gold Player\Scripts\Runtime\Core\Data Types\Enums.cs" />
     <Compile Include="Assets\Gold Player\Scripts\Runtime\Core\Classes\FOVKickClass.cs" />
     <Compile Include="Assets\Gold Player\Scripts\Runtime\Core\Classes\GoldPlayerExtensions.cs" />
@@ -85,6 +86,7 @@
     <Compile Include="Assets\Brick Project Studio\_BPS Basic Assets\Common\Scripts and Animations\Drawer\Z Axis\Drawer_Pull_Z.cs" />
     <Compile Include="Assets\Brick Project Studio\_BPS Basic Assets\Common\Scripts and Animations\First Person Player\SceneSwitchGen.cs" />
     <Compile Include="Assets\Gold Player\Scripts\Tests\ControllerTests.cs" />
+    <Compile Include="Assets\Assets\RoadTool\Scripts\RoadMath.cs" />
     <Compile Include="Assets\Gold Player\Scripts\Runtime\Core\Modules\PlayerMovement.cs" />
     <Compile Include="Assets\Gold Player\Scripts\Runtime\Core\Modules\PlayerBob.cs" />
     <Compile Include="Assets\Gold Player\Scripts\Runtime\Interaction\GoldPlayerInteraction.cs" />
@@ -105,13 +107,40 @@
     <Compile Include="Assets\Brick Project Studio\_BPS Basic Assets\Common\Scripts and Animations\Windows\opencloseWindow1.cs" />
     <Compile Include="Assets\Gold Player\Scripts\Runtime\Core\GoldPlayerInput.cs" />
     <Compile Include="Assets\Gold Player\Scripts\Tests\MovementTests.cs" />
+    <Compile Include="Assets\Assets\RoadTool\Scripts\RoadUtils.cs" />
     <Compile Include="Assets\Gold Player\Scripts\Runtime\Core\Modules\PlayerModule.cs" />
     <Compile Include="Assets\Gold Player\Scripts\Tests\FOVKickTests.cs" />
     <Compile Include="Assets\Gold Player\Scripts\Runtime\Core\Classes\InputSystemItem.cs" />
     <Compile Include="Assets\Gold Player\Scripts\Runtime\Core\GoldInput.cs" />
+    <Compile Include="Assets\Scenes\Loading Scene\Scripts\MainMenu.cs" />
+    <Compile Include="Assets\Scenes\Loading Scene\Scripts\MainMenuTry.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
     <None Include="Assets\Brick Project Studio\Fast Food Restaurant Kit\Scene\BPS Fast Food Restaurant Kit.txt" />
+    <None Include="Assets\Assets\RoadTool\README.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
+    <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
+    <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
+    <None Include="Assets\Assets\RoadTool\Example\Standard Assets\Skyboxes\_skybox info.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
+    <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
+    <None Include="Assets\Assets\RoadTool\Texture\Texture Credits.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

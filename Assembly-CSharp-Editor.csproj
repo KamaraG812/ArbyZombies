@@ -67,6 +67,7 @@
     <Compile Include="Assets\Gold Player\Scripts\Editor\Interaction\GoldPlayerInteractableEditor.cs" />
     <Compile Include="Assets\Gold Player\Scripts\Editor\Audio Extras\GoldPlayerAudioAnimatorTriggersEditor.cs" />
     <Compile Include="Assets\Gold Player\Scripts\Editor\Core\GoldPlayerInputSystemEditor.cs" />
+    <Compile Include="Assets\Assets\RoadTool\Editor\RoadTool.cs" />
     <Compile Include="Assets\Gold Player\Scripts\Editor\Core\FOVKickClassEditor.cs" />
     <Compile Include="Assets\Gold Player\Scripts\Editor\Object Bob\GoldPlayerObjectBobEditor.cs" />
     <Compile Include="Assets\Gold Player\Scripts\Editor\UI\GoldPlayerUIEditor.cs" />
