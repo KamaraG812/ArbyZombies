@@ -9,6 +9,6 @@ EditorBuildSettings:
     path: Assets/Scenes/Loading Scene/Title Scene.unity
     guid: 3e1a1c5b2441e354fbf4ac10f33fba67
   - enabled: 1
-    path: Assets/Scenes/Arbys.unity
+    path: Assets/Scenes/GeorgeArbyz.unity
     guid: cb2793f274cfe324eb711336d331635c
   m_configObjects: {}
