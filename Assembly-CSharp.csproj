@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{C93F7F3D-65DD-8695-6D47-214ED32441F5}</ProjectGuid>
+    <ProjectGuid>{D5E86CDF-0350-CFEB-8FE2-EE873DE84421}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -70,6 +70,7 @@
     <Compile Include="Assets\Gold Player\Scripts\Runtime\Interaction\IGoldPlayerInteractable.cs" />
     <Compile Include="Assets\Gold Player\Scripts\Runtime\Core\GoldPlayerInputSystem.cs" />
     <Compile Include="Assets\Gold Player\Scripts\Runtime\Object Bob\GoldPlayerObjectBob.cs" />
+    <Compile Include="Assets\Scenes\Loading Scene\Scripts\MainMenu.cs" />
     <Compile Include="Assets\Gold Player\Scripts\Tests\AudioItemTests.cs" />
     <Compile Include="Assets\Gold Player\Scripts\Runtime\Core\Classes\MovingPlatformsClass.cs" />
     <Compile Include="Assets\Brick Project Studio\_BPS Basic Assets\Common\Scripts and Animations\Doors\opencloseStallDoor.cs" />
@@ -82,6 +83,7 @@
     <Compile Include="Assets\Gold Player\Scripts\Runtime\Core\Data Types\Enums.cs" />
     <Compile Include="Assets\Gold Player\Scripts\Runtime\Core\Classes\FOVKickClass.cs" />
     <Compile Include="Assets\Gold Player\Scripts\Runtime\Core\Classes\GoldPlayerExtensions.cs" />
+    <Compile Include="Assets\Scenes\Loading Scene\Scripts\MainMenuTry.cs" />
     <Compile Include="Assets\Gold Player\Scripts\Runtime\Audio Extras\GoldPlayerAudioAnimator.cs" />
     <Compile Include="Assets\Brick Project Studio\_BPS Basic Assets\Common\Scripts and Animations\Drawer\Z Axis\Drawer_Pull_Z.cs" />
     <Compile Include="Assets\Brick Project Studio\_BPS Basic Assets\Common\Scripts and Animations\First Person Player\SceneSwitchGen.cs" />
@@ -112,8 +114,6 @@
     <Compile Include="Assets\Gold Player\Scripts\Tests\FOVKickTests.cs" />
     <Compile Include="Assets\Gold Player\Scripts\Runtime\Core\Classes\InputSystemItem.cs" />
     <Compile Include="Assets\Gold Player\Scripts\Runtime\Core\GoldInput.cs" />
-    <Compile Include="Assets\Scenes\Loading Scene\Scripts\MainMenu.cs" />
-    <Compile Include="Assets\Scenes\Loading Scene\Scripts\MainMenuTry.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
